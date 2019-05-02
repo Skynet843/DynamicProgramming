@@ -25,7 +25,7 @@ static int ans=0;
           }
     }else{
       memo[n]=array[n];
-     fun(array,memo,n+1,l,sum);
+      fun(array,memo,n+1,l,sum);
       memo[n]=0;
       fun(array,memo,n+1,l,sum);
       
