@@ -10,7 +10,7 @@ package dynamicprogramming;
 public class SubCarray {
 static int ans=0;
   public static void main(String[] args) {
-   	int[] array={2,4,6,10,33,2434,4};
+   	int[] array={2,4,6,10};
    	int l_array=4;
    	int[] memo=new int[l_array];
    	int sum=16;
